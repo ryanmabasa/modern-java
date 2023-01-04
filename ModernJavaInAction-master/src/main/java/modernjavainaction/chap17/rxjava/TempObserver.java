@@ -13,7 +13,7 @@ public class TempObserver implements Observer<TempInfo> {
 
   @Override
   public void onError(Throwable throwable) {
-    System.out.println("Got problem: " + throwable.getMessage());
+    System.out.println("Got problem dawg: " + throwable.getMessage());
   }
 
   @Override
